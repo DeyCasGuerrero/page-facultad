@@ -1,0 +1,35 @@
+{
+    "firstHeader":{
+        "support":"Assistance and Support | Log in"
+    },
+
+    "secondHeader":{
+        "faculty":"Faculty of Systems and Computer Engineering"
+    },
+
+    "menu":{
+        "first-menu":"home",
+        "second-menu":"info",
+        "third-menu":"news",
+        "fourth-menu":"events",
+        "fifth-menu":"community"
+    },
+
+    "home":{
+        "first-phrase":"systems and Computer Engineering",
+        "second-phrase":"Study in the best way at our faculty"
+    },
+
+    "about":{
+        "first-question": "What does the career consist of? <i class=\"fa-solid fa-chevron-up\" style=\"color: #ffffff;\">",
+        "first-answer": "Systems Engineering (Ing. Sistemas) is a branch of Engineering that combines technology and creativity to design and manage comprehensive technological solutions in the digital age. At UTP, in order to enhance your professional path, we combine Systems Engineering with Computer Science, giving rise to our Systems and Computer Engineering program.",
+        "second-question": "Questions about the career <i class=\"fa-solid fa-chevron-up\" style=\"color: #ffffff;\">",
+        "second-answer": "This is the answer to the second question.",
+        "third-question": "Where will I work? <i class=\"fa-solid fa-chevron-up\" style=\"color: #ffffff;\">",
+        "third-answer": "This is the answer to the third question. <i class=\"fa-solid fa-chevron-up\" style=\"color: #ffffff;\">",
+        "fourth-question": "In which laboratories will I work? <i class=\"fa-solid fa-chevron-up\" style=\"color: #ffffff;\">",
+        "fourth-answer": "This is the answer to the fourth question." 
+    }
+
+    
+}

@@ -1,0 +1,269 @@
+
+<html lang="en">
+
+<head>
+    <title>Facultad Sistemas | Universidad Tecnologíca del Perú</title>
+    <meta name="description"
+        content="Bienvenido a la Facultad de Ingeniería de la Universidad Tecnológica del Perú. Descubre nuestros programas académicos y recursos para estudiantes.">
+    <meta name="keywords"
+        content="Facultad de Ingeniería, UTP, Universidad Tecnológica del Perú, ingeniería, educación">
+    <meta name="author" content="Ariano Alban Gomez; Deyvis Castillo Guerrero, Sebastian Guerrero Manrique">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6a68a570a7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <header class="firstHead">
+        <button class="toggle">
+            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+        </button>
+        <div class="logo-utp"><img src="../assets/img/logo_utp2.png" alt="" width="250px" height="50px"></div>
+        <p class="letras" data-section="firstHeader" data-value="support"> <i class="fa-solid fa-bell"
+                style="color: #ffffff;"></i> Ayuda y soporte |<a href="../HTML/login_register.html" class="sesion">Inicio Sesion</a></p>
+    </header>
+    <header>
+        <div class="logo">
+            <h4><span class="titleAnimated" data-section="secondHeader" data-value="faculty">facultad Ing. Sistemas e informatica </span></h4>
+        </div>
+
+        <div class="contacto">
+            <h5>Soporte Tecnico 91213123</h5>
+            <div class="help">
+                <h5>Contacto Especializado </h5>
+            </div>
+        </div>
+
+    </header>
+
+    <nav class="buscador">
+        <button class="cancel">
+            <i class="fa-solid fa-xmark" style="color: #ffffff;"></i>
+        </button>
+        <div class="buscador_logo"><img src="../assets/img/logo_utp2.png" alt="" width="250px" height="50px"></div>
+        <div class="menu" >
+            <a href="" data-section="menu" data-value="first-menu">inicio</a>
+            <a href="#info" data-section="menu" data-value="second-menu">info</a>
+            <a href="#news" data-section="menu" data-value="third-menu">noticias</a>
+            <a href="#events" data-section="menu" data-value="fourth-menu">eventos</a>
+            <a href="" data-section="menu" data-value="fifth-menu">comunidad</a>
+        </div>
+
+        <div class="language-container" id="language-container">
+            <div class="select-btn">
+                <span class="sBtn-text"> IDIOMA </span>
+                <i class="fa-solid fa-chevron-down" style="color: #ffffff;"></i>
+            </div>
+            <ul class="options" id="flags">
+                <li class="option">
+                    <div class="flags_item" data-language="es">
+                        <img src="../assets/icons/peru.svg" alt="" height="40px" width="40px">
+                        <span class="option-text">Español</span>
+                    </div>
+                </li>
+                <li class="option">
+                    <div class="flags_item" data-language="en">
+                        <img src="../assets/icons/USA.svg" alt="" height="40px" width="40px">
+                        <span class="option-text"> English </span>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            const header = document.querySelector(".buscador");
+            header.classList.toggle("abajo", window.scrollY > 0);
+        });
+    </script>
+
+    <main>
+        <section class="principal">
+            <div class="slogan">
+                <h1 class="phrase" data-section="home" data-value="first-phrase"> ingener&iacute;a de sistemas e
+                    informatica </h1><br>
+                <p class="phrase2" data-section="home" data-value="second-phrase"> <i>Estudia de la mejor manera en
+                        nuestra
+                        <span>facultad de ingeniería</span></i></p><br>
+            </div>
+        </section>
+
+    </main>
+
+    <section class="info" id="info">
+
+        <img src="../assets/img/UTP-Piura.png" alt="">
+
+        <div class="information">
+            <nav class="head-information">
+                <a class="option" data-section="about" data-value="first-question">¿En que consiste la carrera? <i
+                        class="fa-solid fa-chevron-up" style="color: #ffffff;"></i></a>
+                <a class="option" data-section="about" data-value="second-question">Preguntas acerca de la carrera <i
+                        class="fa-solid fa-chevron-up" style="color: #ffffff;"></i></a>
+                <a class="option" data-section="about" data-value="third-question">¿En donde voy a tarabajar? <i
+                        class="fa-solid fa-chevron-up" style="color: #ffffff;"></i></a>
+                <a class="option" data-section="about" data-value="fourth-question">¿En que laboratorios
+                    trabajar&eacute;? <i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i></a>
+            </nav>
+            <div class="text-information">
+                <p data-section="about" data-value="first-answer">
+                    Ingeniería de Sistemas (Ing. Sistemas) es una rama de la Ingeniería que combina tecnología y
+                    creatividad para diseñar y
+                    gestionar soluciones tecnológicas integrales en la era digital. En la UTP, con el fin de potenciar
+                    tu camino
+                    profesional, combinamos la Ingeniería de Sistemas con la Informática, dando paso a nuestra carrera
+                    de Ingeniería
+                    de Sistemas e Informática.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="news" id="news">
+        <div class="cards_title">
+            <h2>NOTICIAS</h2>
+        </div>
+        <div class="containerCard">
+            <div class="cards">
+                <img src="/assets/img/UTPlogoMini.png" class="logoGOB" alt="">
+                <h4>¿Lorem ipsum dolor sit amet consectetur?</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt autem vitae porro, consequatur
+                    debitis voluptate libero tempore odit illo culpa, nulla amet ducimus distinctio facere.</p>
+                <a href="https://www.gob.pe/11813" target="_blank">Leer más</a>
+            </div>
+
+            <div class="cards">
+                <img src="/assets/img/UTPlogoMini.png" class="logoGOB" alt="">
+                <h4>¿PLorem ipsum dolor sit amet consectetur?</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt autem vitae porro, consequatur
+                    debitis voluptate libero tempore odit illo culpa, nulla amet ducimus distinctio facere.</p>
+                <a href="https://www.gob.pe/11813" target="_blank">Leer más</a>
+            </div>
+
+            <div class="cards">
+                <img src="/assets/img/UTPlogoMini.png" class="logoGOB" alt="">
+                <h4>¿Lorem ipsum dolor sit amet consectetur?</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt autem vitae porro, consequatur
+                    debitis voluptate libero tempore odit illo culpa, nulla amet ducimus distinctio facere.</p>
+                <a href="https://www.gob.pe/11813" target="_blank">Leer más</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="events" id="events">
+        <div class="widgets">
+            <aside>
+                <img src="../assets/img/logo-color.png" alt="logoUTP" width="250px" height="100px">
+                <div class="widget-left">
+                    <h2> MAS INFORMACI&Oacute;N</h2>
+                    <p> Aprende mas en en nuestro video informativo</p>
+                    <iframe width="300" height="300" src="https://www.youtube.com/embed/r_Tx9O6jGBs?si=I-Ils1ck_M3B7U-E" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+            </aside>
+    
+            <div class="widget-center">
+                <h2> eventos </h2>
+                
+                <article class="article-event"></article>
+                <article class="article-event"></article>
+                <article class="article-event"></article>
+                <input class="more-info" type="button" value="CARGAR M&Aacute;S" >
+            </div>
+    
+            <div class="widget-rigth">
+                <i class='bx bxl-tiktok' style="color: #fff;"><a href="" target="_blank">tiktok</a></i>
+                <i class='bx bxl-facebook-circle' style="color: #4267B2;"><a href="" target="_blank">facebook</a></i>
+                <i class='bx bxl-instagram-alt' style="color: #E1306C;"><a href="" target="_blank">instagram</a></i>
+                <i class='bx bxl-youtube' style="color: rgb(231, 61, 61);"><a href="" target="_blank">youtube</a></i>
+                <i class='bx bxl-twitter' style="color: #1DA1F2;"><a href="" target="_blank">twitter</a></i>
+            </div>
+
+
+        </div>
+    
+    </section>
+
+    <footer id="footer"></footer>
+
+    <script type="text/javascript">
+        const bar=document.querySelector(".toggle"),
+        cancel=document.querySelector(".cancel");
+        const navMenu=document.querySelector(".buscador")
+
+
+        bar.addEventListener("click" , function(){
+            if (!(navMenu.classList.contains("nav_menu_visible"))) {
+                navMenu.classList.remove("nav_menu_visible")
+                navMenu.classList.remove("cancel_invisible")
+            }
+            navMenu.classList.toggle("nav_menu_visible");
+        })
+
+        cancel.addEventListener("click" , function(){
+            if (!(navMenu.classList.contains("cancel_invisible"))) {
+                navMenu.classList.remove("cancel_invisible")
+                navMenu.classList.remove("nav_menu_visible")
+            }
+            navMenu.classList.toggle("cancel_invisible")
+        })
+
+    </script>
+
+
+    <script type="text/javascript">
+        const boton = document.querySelectorAll(".option");
+        boton.forEach(function (botons) {
+            botons.addEventListener("click", function () {
+                this.classList.toggle("active");
+            });
+        });
+
+        const botonHeader = document.querySelectorAll(".option");
+        botonHeader.forEach(function (options) {
+            options.addEventListener("click", function () {
+                let selected = options.getAttribute("data-value");
+                console.log(selected);
+
+
+                const screen = document.querySelector(".text-information");
+                if (selected == "first-question") {
+                    console.log("primero");
+                    screen.textContent = "CAMBIO 1";
+
+                } else if (selected == "second-question") {
+                    console.log("segundo");
+                    screen.textContent = "CAMBIO 2";
+
+                } else if (selected == "third-question") {
+                    console.log("tercero");
+                    screen.textContent = "CAMBIO 3";
+
+                } else if (selected == "fourth-question") {
+                    console.log("cuarto");
+                    screen.textContent = "CAMBIO 4";
+
+                } else {
+                    console.log("ERROR AL EVALUAR");
+                }
+            });
+        });
+    </script>
+
+    <script  type="module" src="../JS/language.js"></script>
+
+</body>
+
+</html>

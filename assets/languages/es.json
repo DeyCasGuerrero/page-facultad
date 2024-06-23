@@ -1,0 +1,36 @@
+{
+    "firstHeader":{
+        "support":"Ayuda y soporte | Inicio sesión"
+    },
+
+    "secondHeader":{
+        "faculty":"facultad ing. sistemas e informatica"
+
+    },
+
+    "menu":{
+        "first-menu":"inicio",
+        "second-menu":"info",
+        "third-menu":"noticias",
+        "fourth-menu":"eventos",
+        "fifth-menu":"comunidad"
+    },
+
+    "home":{
+        "first-phrase":"ingenería de sistemas e informatica",
+        "second-phrase":"estudia de la mejor manera en nuestra facultad"
+    },
+
+    "about":{
+
+        "first-question":"¿En qu&eacute; consiste la carrera? <i class=\"fa-solid fa-chevron-up\" style=\"color: #ffffff;\">",
+        "first-answer": "Ingeniería de Sistemas (Ing. Sistemas) es una rama de la Ingeniería que combina tecnología y creatividad para diseñar y gestionar soluciones tecnológicas integrales en la era digital. En la UTP, con el fin de potenciar tu camino profesional, combinamos la Ingeniería de Sistemas con la Informática, dando paso a nuestra carrera de Ingeniería de Sistemas e Informática.",
+        "second-question":"Preguntas acerca de la carrera <i class=\"fa-solid fa-chevron-up\" style=\"color: #ffffff;\">",
+        "second-answer" : "Esta es la respuesta a la segunda pregunta.",
+        "third-question":"¿En d&oacute;nde voy a trabajar? <i class=\"fa-solid fa-chevron-up\" style=\"color: #ffffff;\">",
+        "third-answer" : "Esta es la respuesta a la tercera pregunta. <i class=\"fa-solid fa-chevron-up\" style=\"color: #ffffff;\">",
+        "fourth-question": "¿En qu&eacute; laboratorio trabajaré? <i class=\"fa-solid fa-chevron-up\" style=\"color: #ffffff;\">",
+        "fourth-answer": "Esta es la respuesta a la cuarta pregunta."
+
+    }
+}
