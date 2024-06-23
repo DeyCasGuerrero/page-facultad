@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/6a68a570a7.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/style.css">
     
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -46,7 +46,7 @@
         <button class="cancel">
             <i class="fa-solid fa-xmark" style="color: #ffffff;"></i>
         </button>
-        <div class="buscador_logo"><img src="../assets/img/logo_utp2.png" alt="" width="250px" height="50px"></div>
+        <div class="buscador_logo"><img src="/assets/img/logo_utp2.png" alt="" width="250px" height="50px"></div>
         <div class="menu" >
             <a href="" data-section="menu" data-value="first-menu">inicio</a>
             <a href="#info" data-section="menu" data-value="second-menu">info</a>
@@ -63,13 +63,13 @@
             <ul class="options" id="flags">
                 <li class="option">
                     <div class="flags_item" data-language="es">
-                        <img src="../assets/icons/peru.svg" alt="" height="40px" width="40px">
+                        <img src="/assets/icons/peru.svg" alt="" height="40px" width="40px">
                         <span class="option-text">Español</span>
                     </div>
                 </li>
                 <li class="option">
                     <div class="flags_item" data-language="en">
-                        <img src="../assets/icons/USA.svg" alt="" height="40px" width="40px">
+                        <img src="/assets/icons/USA.svg" alt="" height="40px" width="40px">
                         <span class="option-text"> English </span>
                     </div>
                 </li>
@@ -100,7 +100,7 @@
 
     <section class="info" id="info">
 
-        <img src="../assets/img/UTP-Piura.png" alt="">
+        <img src="/assets/img/UTP-Piura.png" alt="">
 
         <div class="information">
             <nav class="head-information">
@@ -190,13 +190,18 @@
                 <i class='bx bxl-youtube' style="color: rgb(231, 61, 61);"><a href="" target="_blank">youtube</a></i>
                 <i class='bx bxl-twitter' style="color: #1DA1F2;"><a href="" target="_blank">twitter</a></i>
             </div>
-
-
         </div>
-    
     </section>
 
-    <footer id="footer"></footer>
+    <footer id="footer" class="footerpage">
+        <div class="container-foot">
+            <div class="footer-content">
+                <h3>Facultad de Ingeniería de Sistemas</h3>
+                <p>Universidad Sideral Carrion</p>
+                <p>Contacto: ingenieria.sistemas@usc.edu</p>
+            </div>
+        </div>
+    </footer>
 
     <script type="text/javascript">
         const bar=document.querySelector(".toggle"),
@@ -262,7 +267,7 @@
         });
     </script>
 
-    <script  type="module" src="../JS/language.js"></script>
+    <script  type="module" src="/JS/language.js"></script>
 
 </body>
 
